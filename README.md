@@ -1,1 +1,3 @@
 ## garbage capacity forecaster using the Sagemaker DeepAR time series forecasting algorithm 
+
+AWS DeepAR is a supervised machine learning algorithm for forecasting time series using recurrent neural networks (RNN). The benefits of DeepAR over traditional ARIMA or ETS models are that of its ability to train a single model using multiple time series data sets. The intention is to use this algorithm to train a model using multiple time series data containing the garbage level readings from multiple garbage bins. The trained model will be able to forecast garbage levels into the future and combined with the Smartcity Wastemanagement application, an inovating and more optimized approach to wastemanagment can be implemented.
